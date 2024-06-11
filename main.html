@@ -8,6 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	    <div class="container">
+        <h1>Rock, Paper, Scissors Game</h1>
+        <div>
+            <label for="game-number">Number of Turns:</label>
+            <input type="number" id="game-number" data-ns-test="game-number" min="1" step="1">
+            <button id="play-game" data-ns-test="play-game">Play</button>
+        </div>
+        <div class="game-controls">
+            <button id="rock" data-ns-test="rock">Rock</button>
+            <button id="paper" data-ns-test="paper">Paper</button>
+            <button id="scissors" data-ns-test="scissors">Scissors</button>
+        </div>
+        <div class="game-info">
+            <p>Rounds Left: <span id="rounds-left" data-ns-test="rounds-left">0</span></p>
+            <p>User Points: <span id="user-points" data-ns-test="user-points">0</span></p>
+            <p>Computer Points: <span id="computer-points" data-ns-test="computer-points">0</span></p>
+        </div>
+        <div class="game-results">
+            <p>Computer Chose: <span id="computer-choose" data-ns-test="computer-choose"></span></p>
+            <p>Round Result: <span id="round-result" data-ns-test="round-result"></span></p>
+            <h2>Game Result: <span id="game-result" data-ns-test="game-result"></span></h2>
+        </div>
+    </div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 

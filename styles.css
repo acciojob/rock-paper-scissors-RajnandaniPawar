@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.game-controls {
+    margin: 20px 0;
+}
+
+.game-info, .game-results {
+    margin-top: 20px;
+}
+
+.game-results h2 {
+    margin-top: 20px;
+    color: #333;
+}
